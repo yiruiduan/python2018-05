@@ -19,3 +19,4 @@ def redis_cluster():
         sys.exit(0)
 
 print(redis_cluster().get("xiao"))
+print("hello")
